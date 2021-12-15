@@ -15,6 +15,8 @@ var listaDePeca=("filtro de ar","Motor","Armortecedor")
     let nomePeca ="Disco de freio"
     if (nomePeca.length > 3){ 
         console.log("Nome de peça esta adequado pra o cadastro!")
+    }else if(nomePeca== 0){
+        console.log("o nome da peça não pode esta vazio!!")
     }else{
         console.log("O nome deve ter mais de 3 caracteres,digite um nome adequado")
     }
